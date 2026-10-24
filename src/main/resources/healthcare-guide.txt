@@ -1,0 +1,85 @@
+
+HEALTHCARE EDUCATION GUIDE
+
+1. Skin Allergies
+
+Skin allergies can cause itching, redness, rashes, swelling, or hives.
+Common triggers include certain metals, fragrances, cosmetics, latex,
+some medicines, and insect bites. The cause cannot always be determined
+from symptoms alone.
+
+A dermatologist can evaluate persistent or recurring skin problems.
+Seek urgent medical attention for a severe allergic reaction, especially
+if there is difficulty breathing or swelling of the tongue or throat.
+
+2. Choosing the Right Doctor
+
+A dermatologist specializes in conditions involving the skin, hair,
+and nails.
+
+A dentist helps with teeth, gums, and oral health.
+
+A cardiologist specializes in conditions affecting the heart.
+
+An orthopedic specialist evaluates conditions affecting bones,
+joints, muscles, and related structures.
+
+A general physician can assess many common health concerns and help
+determine whether referral to a specialist is needed.
+
+The appropriate specialist depends on the person's symptoms and
+medical circumstances. A document-based chatbot should not replace
+a professional medical evaluation.
+
+3. General Health Information
+
+Fever, cough, headache, and pain can have many possible causes.
+A chatbot cannot establish a diagnosis from these symptoms alone.
+
+People with persistent, worsening, or concerning symptoms should seek
+advice from a qualified healthcare professional.
+
+For severe symptoms or a suspected medical emergency, seek emergency
+medical care rather than relying on an AI response.
+
+4. Using Healthcare Documents in an AI Chatbot
+
+Retrieval-Augmented Generation, or RAG, allows an AI application to
+search relevant passages from a supplied document before generating
+an answer.
+
+The document is divided into smaller chunks. An embedding model converts
+each chunk into a numerical representation. A vector store keeps those
+representations and their associated text.
+
+When a user asks a question, the application searches for relevant
+chunks and provides their content to the AI model as context.
+Demo reference code for the skin-allergy section: SKIN-7314.
+The AI should answer from the retrieved information, distinguish
+missing information from documented facts, and avoid inventing details.
+
+5. Preparing for a Patient Visit
+
+Before a routine healthcare visit, write down the main reason for the visit,
+when symptoms started, what makes them better or worse, and any questions you
+want to ask. Bring a list of current medicines and supplements, known allergies,
+relevant medical history, and previous test results if available. Bring the
+identification, insurance information, or referral documents requested by your
+clinic. Arrive at the time recommended by the clinic. Clinic requirements can
+vary, so contact the clinic if you are unsure what documents to bring.
+
+6. Understanding Healthcare Terms
+
+A healthcare term is a word used to describe a body part, symptom, test,
+condition, treatment, or healthcare process. Ask for the specific word or phrase
+when you want a definition. An explanation should describe the term in plain
+language and should not be treated as a personal diagnosis. The meaning of a
+term can depend on the context in which a clinician uses it. Ask your healthcare
+professional to explain how a term applies to your own care.
+
+7. Questions for Your Clinician
+
+Useful questions include: What does this term mean? What are the next steps?
+Are there preparation instructions for the test or appointment? When should I
+expect results? Who should I contact if symptoms worsen? The appropriate answer
+depends on the person's circumstances and the clinic's instructions.
